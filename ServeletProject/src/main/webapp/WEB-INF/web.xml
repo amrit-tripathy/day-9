@@ -1,0 +1,38 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+
+  <servlet>
+  	<servlet-name>HelloServelets</servlet-name>
+  	<display-name>HelloServelets</display-name>
+  	<description></description>
+  	<servlet-class>com.grayMatter.HelloServelets</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>loginServelet</servlet-name>
+  	<display-name>loginServelet</display-name>
+  	<description></description>
+  	<servlet-class>com.grayMatter.loginServelet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>WelcomeServelet</servlet-name>
+  	<display-name>WelcomeServelet</display-name>
+  	<description></description>
+  	<servlet-class>com.grayMatter.WelcomeServelet</servlet-class>
+  </servlet>
+    <servlet-mapping>
+  	<servlet-name>HelloServelets</servlet-name>
+  	<url-pattern>/HelloServelets</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+    	<servlet-name>loginServelet</servlet-name>
+    	<url-pattern>/login</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+    	<servlet-name>WelcomeServelet</servlet-name>
+    	<url-pattern>/WelcomeServelet</url-pattern>
+    </servlet-mapping>
+</web-app>
